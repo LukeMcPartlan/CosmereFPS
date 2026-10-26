@@ -7,7 +7,6 @@ Binaries/
 Build/
 DerivedDataCache/
 Intermediate/
-Saved/
 .vs/
 *.sln
 *.suo
@@ -17,6 +16,15 @@ Saved/
 *.VC.opendb
 *.xcodeproj
 *.xcworkspace
+
+# Saved/: track screenshots and autosaves only
+Saved/*
+!Saved/Screenshots/
+!Saved/Autosaves/
+
+# Lvl_Urithiru autosaves are ~268 MB each (1.8 GB for 10 files) - excluded to stay
+# inside the GitHub LFS quota. Delete the next line to include them.
+Saved/Autosaves/Game/Maps/Lvl_Urithiru_Auto*.umap
 
 # OS
 Thumbs.db
