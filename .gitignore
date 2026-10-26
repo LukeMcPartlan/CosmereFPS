@@ -1,0 +1,23 @@
+# Aura local tool state
+ArtDirection/.local/
+.Aura/
+
+# Unreal build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# OS
+Thumbs.db
+.DS_Store

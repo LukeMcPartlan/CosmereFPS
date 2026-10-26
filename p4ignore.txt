@@ -1,0 +1,2 @@
+# --- aura art-direction (auto-managed) ---
+ArtDirection/.local/
